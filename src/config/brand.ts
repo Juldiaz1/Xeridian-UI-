@@ -1,0 +1,25 @@
+export const brand = {
+  appName: "Xeridian",
+  tagline: "Track every rep.",
+  logo: require("../../assets/logo.png"),
+  colors: {
+    primary: "#4F46E5",
+    background: "#FFFFFF",
+    text: "#111827",
+    muted: "#6B7280",
+    border: "#D1D5DB",
+    error: "#DC2626",
+  },
+  text: {
+    loginTitle: "Welcome back",
+    signUpTitle: "Create your account",
+    emailLabel: "Email",
+    passwordLabel: "Password",
+    confirmLabel: "Confirm password",
+    loginButton: "Log in",
+    signUpButton: "Sign up",
+    toSignUp: "No account? Sign up",
+    toLogin: "Already have an account? Log in",
+  },
+  showApple: false,
+};
